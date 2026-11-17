@@ -15,9 +15,7 @@ int main(void)
     scanf("%i", &n);
 
     runner candidates[n];
-    if(n == 1) {
-        candidates [0] = getcan();
-    } else if(n > 1) {
+    if(n >= 1) {
         for(int i = 0; i < n; i++)
         {
             candidates [i] = getcan();
